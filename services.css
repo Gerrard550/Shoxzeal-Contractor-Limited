@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(200, 223, 112);
+  font-family: "Times New Roman", Times, serif;
+  height: 100dvh;
+  position: relative;
+}
+
+h1 {
+  font-size: 43px;
+  font-weight: bold;
+  color: lightseagreen;
+  margin: 20px 20px;
+}
+.services {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+p {
+  font: 32px;
+  font-size: 400;
+  padding: 18px 20px;
+}
