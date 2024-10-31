@@ -25,3 +25,10 @@ p {
   font-size: 400;
   padding: 18px 20px;
 }
+
+.photo img {
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+  margin: 20px 40px 20px 80px;
+}
