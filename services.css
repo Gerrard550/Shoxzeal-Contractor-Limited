@@ -25,9 +25,10 @@ h1 {
   color: rgb(35, 56, 35);
 }
 
-h1 p {
-  font-size: 400px;
-  padding: 18px 20px;
+#about {
+  font-size: 25px;
+  font-style: italic;
+  padding: 16px 22px;
 }
 
 .photo img {
@@ -35,6 +36,11 @@ h1 p {
   height: 400px;
   border-radius: 20px;
   margin: 60px 40px 20px 80px;
+}
+
+.photo img:hover {
+  opacity: 50%;
+  cursor: pointer;
 }
 
 .home {
