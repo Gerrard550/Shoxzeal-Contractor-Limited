@@ -14,21 +14,38 @@ h1 {
   font-weight: bold;
   color: lightseagreen;
   margin: 20px 20px;
+  cursor: pointer;
 }
 .services {
   opacity: 50%;
   cursor: pointer;
 }
 
-p {
-  font: 32px;
-  font-size: 400;
+.services:hover {
+  color: rgb(35, 56, 35);
+}
+
+h1 p {
+  font-size: 400px;
   padding: 18px 20px;
 }
 
 .photo img {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   border-radius: 20px;
-  margin: 20px 40px 20px 80px;
+  margin: 60px 40px 20px 80px;
+}
+
+.home {
+  text-decoration: none;
+  color: rgb(35, 56, 35);
+}
+
+#serve {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: upper-roman;
 }
